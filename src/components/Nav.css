@@ -1,0 +1,31 @@
+h1 {
+  background-color: skyblue;
+}
+
+.button_changer {
+  background-color: skyblue;
+  text-align: center;
+}
+
+.button_changer>button {
+  display: inline-block;
+  background-color: aquamarine;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 2vh;
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.button_changer>button:hover {
+  background-color: whitesmoke;
+}
+
+.root {
+  height: 100%;
+}
